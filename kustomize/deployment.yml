@@ -18,7 +18,7 @@ spec:
       containers:
       - name: 2048-app
         # Replace with your docker registry info
-        image: localhost:5000/2048:latest
+        image: https://github.com/James-Riordan/MegaServer-Config/tree/feature-add-working-tekton/dockers
         ports:
         - name: http
           containerPort: 8000
